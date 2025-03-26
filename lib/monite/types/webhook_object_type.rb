@@ -1,0 +1,46 @@
+# frozen_string_literal: true
+
+module Monite
+  class WebhookObjectType
+
+    ACCOUNT = "account"
+    ACCOUNTING_CONNECTION = "accounting_connection"
+    APPROVAL = "approval"
+    APPROVAL_REQUEST = "approval_request"
+    APPROVAL_POLICY = "approval_policy"
+    APPROVAL_POLICY_PROCESS = "approval_policy_process"
+    BATCH_PAYMENT = "batch_payment"
+    COMMENT = "comment"
+    COUNTERPART = "counterpart"
+    COUNTERPART_ADDRESS = "counterpart_address"
+    COUNTERPART_BANK_ACCOUNT = "counterpart_bank_account"
+    COUNTERPART_CONTACT_PERSON = "counterpart_contact_person"
+    COUNTERPART_PARTNER_METADATA = "counterpart_partner_metadata"
+    COUNTERPART_TAX_ID = "counterpart_tax_id"
+    ENTITY = "entity"
+    ENTITY_BANK_ACCOUNT = "entity_bank_account"
+    ENTITY_SETTINGS = "entity_settings"
+    ENTITY_USER = "entity_user"
+    EXPORT = "export"
+    OVERDUE_REMINDER = "overdue_reminder"
+    PARTNER_SETTINGS = "partner_settings"
+    PAYABLE = "payable"
+    PAYABLES_CREDIT_NOTE = "payables_credit_note"
+    PAYABLES_PURCHASE_ORDER = "payables_purchase_order"
+    PAYABLE_LINE_ITEM = "payable.line_item"
+    PAYMENT = "payment"
+    PAYMENT_INTENT = "payment_intent"
+    PAYMENT_LINK = "payment_link"
+    PAYMENT_REMINDER = "payment_reminder"
+    PRODUCT = "product"
+    PROJECT = "project"
+    RECEIVABLE = "receivable"
+    RECURRENCE = "recurrence"
+    ROLE = "role"
+    TAG = "tag"
+    TODO_TASK = "todo_task"
+    WORKFLOW = "workflow"
+    WORKFLOW_PIPELINE = "workflow_pipeline"
+
+  end
+end
